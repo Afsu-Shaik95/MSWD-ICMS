@@ -1,0 +1,59 @@
+/* Styling the form container */
+.login {
+   height: max-content;
+   width: max-content;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+    background-image: url('https://plus.unsplash.com/premium_photo-1679138594705-ab1a11dc2c83?auto=format&fit=crop&q=80&w=2670&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  }
+  
+  /* Styling the header */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling form elements */
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling the "OR" paragraph */
+  p {
+    font-size: 16px;
+  }
+  
+  /* Styling the link */
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
