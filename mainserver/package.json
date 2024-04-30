@@ -1,0 +1,19 @@
+{
+  "name": "mainserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mainserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mainserver.js",
+    "dev": "nodemon mainserver.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
